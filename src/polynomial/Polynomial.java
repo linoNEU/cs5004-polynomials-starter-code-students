@@ -25,7 +25,6 @@ public interface Polynomial {
    * @return the resulting polynomial
    * @throws IllegalArgumentException if parameter is not the same concrete type
    */
-
   Polynomial multiply(Polynomial other) throws IllegalArgumentException;
 
   /**
